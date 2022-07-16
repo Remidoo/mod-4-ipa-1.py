@@ -80,6 +80,7 @@ def tic_tac_toe(board):
     # Replace `pass` with your code. 
     # Stay within the function. Only use the parameters as input. The function should return your answer.
     #rows
+    import numpy ad np
     def rows(board):
         for row in board:
             if len(set(row)) == 1:
